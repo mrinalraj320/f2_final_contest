@@ -35,7 +35,7 @@ body{
        text-align: center;
        position: relative;
        z-index: 1000;
-       top: 120px;
+       top: 100px;
        border-radius: 15px;
  }
  
@@ -90,10 +90,10 @@ body{
     border-radius: 15px;
  }
  .cpon{
-    /* display: none; */
+    display: none;
     width: 300px;
-    /* box-shadow: 0 0 3px 0 rgb(0 0 0 / 30%); */
-    /* background: #fff; */
+    box-shadow: 0 0 3px 0 rgb(0 0 0 / 30%);
+    background: #fff;
     padding: 20px;
     margin: 8% auto 0;
     text-align: center;
@@ -101,6 +101,8 @@ body{
     z-index: 1000;
     top: 150px;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
  }
  .cong{
     /* display: none; */
@@ -115,5 +117,15 @@ body{
     top: 150px;
     border-radius: 15px;
  }
+ #result{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgb(0 0 0 / 30%);
+    background: #fff;
+    padding: 50px;
+    margin: 0 auto 0;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
 
-  
+ }
